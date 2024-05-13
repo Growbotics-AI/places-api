@@ -17,15 +17,11 @@ This repository hosts the API for Growbotics AI Maps, which is documented at [So
    ```bash
    cd places-api
    ```
-3. **Install dependencies:**
+3. **Build and run the API using Docker Compose:**
    ```bash
-   pip install -r requirements.txt
+   docker-compose up --build
    ```
-4. **Run the API:**
-   ```bash
-   python main.py
-   ```
-5. **Use the API to fetch categorized places data.**
+4. **Use the API to fetch categorized places data.**
 
 ## License
 MIT License
